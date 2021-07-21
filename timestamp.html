@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="timestamp.js"></script>
+    <title>Timestamp - Sapphire Tools</title>
+</head>
+<body>
+    <h1>Timestamp Markdown</h1>
+    <div>
+        Select a date and time:<br>
+        <input type="datetime-local" name="DateTime" id="datetime">
+        Format:
+        <select name="Format" id="format">
+            <option value="f">Short date & time</option>
+            <option value="F">Long date & time</option>
+            <option value="d">Short date</option>
+            <option value="D">Long date</option>
+            <option value="t">Short time</option>
+            <option value="T">Long time</option>
+            <option value="R">Relative time</option>
+        </select>
+        <br><br>
+        <button onclick="Generate()">Generate</button>
+        <div>
+            Output:
+            <code><xmp id="output"></xmp></code>
+        </div>
+        <button id="copy" onclick="Copy('output')">Copy</button>
+    </div>
+</body>
+</html>
