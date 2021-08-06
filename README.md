@@ -10,4 +10,4 @@ Simply enter a time and a date and click Generate. You can then copy the little 
 Looking for the page itself?
 https://sapphsky.github.io/TimestampMarkdown/
 
-If you would like to send me any feedback on how to improve the page, shoot me a message on Discord; [Sapphire Sky#0256](https://discordapp.com/users/101790332437405696).
+If you would like to send me any feedback on how to improve the page, shoot me a message on Discord; Sapphire Sky#0256.
