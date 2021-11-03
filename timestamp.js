@@ -1,21 +1,10 @@
 (function() {
     console.log(
         "Discord Timestamp Formatter - Sapphire Tools\n" +
-        "Version 1.0.1"
+        "Version 1.0.2"
     );
 
 })();
-
-function CheckCompatibility() {
-    if (navigator.userAgent.indexOf("Firefox") !== -1) {
-        Notify();
-    }
-}
-
-function Notify() {
-    var warning = document.getElementById("browser-warning");
-    warning.style.display = "block";
-}
 
 function Generate() {
     var output = document.getElementById("output");
